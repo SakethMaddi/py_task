@@ -47,3 +47,49 @@
 #             new_string+=chr(ord(str[i]))
 #     print(new_string)
 # vowel_conversion(str=input())
+
+# # Split a string by spaces
+# str=input()
+# print(str.split(" "))
+
+# # Check if string starts with "Hello".
+# str=input()
+# print(str.startswith("hello"))
+
+# # Check if two strings are anagrams.
+# str1=input()
+# str2=input()
+# print("Anagrams" if sorted(str1)==sorted(str2) else "not anagrams")
+
+# # Reverse each word in a sentence.
+# str=input()
+# word=str.split()
+# rev=[word[::-1] for w in word]
+# print(rev) 
+
+# # Find longest word in a sentence.
+# str="hi hello how"
+# word=str.split()
+# longest_word=""
+# for w in word:
+#     if len(longest_word) < len(w):
+#         longest_word=w
+# print(longest_word)
+
+# # Remove duplicate characters.
+# sentence=input()
+# for i in range(len(sentence)):
+#     if (sentence.count(sentence[i]))==1:
+#         print(sentence[i])
+
+# # Count frequency of characters
+# str=input()
+# for i in range(len(str)):
+#     print(str.count(str[i]))
+
+# # Replace multiple spaces with single space
+# str=input()
+# for i in range(len(str)):
+#     str=str.replace("  "," ")
+# print(str)
+

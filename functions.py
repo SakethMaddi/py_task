@@ -255,3 +255,13 @@
 
 # upper_lower_count("i Am leaning PythON")
 
+# # Write a function to return max digit in a number.
+# def max_digit(n):
+#     max=0
+#     while n>0:
+#         digit=n%10
+#         if digit > max:
+#             max=n%10
+#         n//=10
+#     return max
+# print(max_digit(3425))
