@@ -93,3 +93,8 @@
 #     str=str.replace("  "," ")
 # print(str)
 
+# # Convert string to list of characters.
+# str="namaste"
+# str=list(str)
+# print(str)
+

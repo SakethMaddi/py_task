@@ -265,3 +265,4 @@
 #         n//=10
 #     return max
 # print(max_digit(3425))
+

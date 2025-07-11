@@ -96,3 +96,108 @@
 #             pattern+=" "+" "
 #     print(pattern)
 
+#        *
+#       * *
+#      * * *
+#     * * * *
+#    * * * * *
+# row=5
+# for i in range(1,row+1):
+#     pattern=""
+#     for j in range(row-i+1):
+#         pattern+=" "
+#     for k in range(i):
+#         pattern+="*"+" "
+#     print(pattern)
+
+#    * * * * *
+#     * * * *
+#      * * *
+#       * *
+#        *
+# row=5
+# for i in range(row,0,-1):
+#     pattern=""
+#     for j in range(1,row-i+1):
+#         pattern+=" "
+#     for k in range(i):
+#         pattern+="*"+" "
+#     print(pattern)
+
+#            *
+#          * *
+#        * * *
+#      * * * *
+#    * * * * *
+# row=5
+# for i in range(row+1):
+#     pattern=""
+#     for j in range(row-i+1):
+#         pattern+="  "
+#     for k in range(i):
+#         pattern+="* "
+#     print(pattern)
+
+#    * * * * *
+#      * * * *
+#        * * *
+#          * *
+#            *
+# row=5
+# for i in range(row,0,-1):
+#     pattern=""
+#     for j in range(row-i+1):
+#         pattern+="  "
+#     for k in range(i):
+#         pattern+="* "
+#     print(pattern)
+
+#        *
+#       * *
+#      * * *
+#     * * * *
+#    * * * * *
+#     * * * *
+#      * * *
+#       * *
+#        *
+# row=5
+# for i in range(row):
+#     pattern=""
+#     for j in range(row-i+1):
+#         pattern+=" "
+#     for k in range(i):
+#         pattern+="* "
+#     print(pattern)
+# for i in range(row,0,-1):
+#     pattern=""
+#     for j in range(row-i+1):
+#         pattern+=" "
+#     for k in range(i):
+#         pattern+="* "
+#     print(pattern)
+
+#    * * * * *
+#     * * * *
+#      * * *
+#       * *
+#        *
+#       * *
+#      * * *
+#     * * * *
+#    * * * * *
+# row=5
+# for i in range(row,1,-1):
+#     pattern=""
+#     for j in range(row-i+1):
+#         pattern+=" "
+#     for k in range(i):
+#         pattern+="* "
+#     print(pattern)
+# for i in range(row):
+#     pattern=""
+#     for j in range(row-i):
+#         pattern+=" "
+#     for k in range(i+1):
+#         pattern+="* "
+#     print(pattern)
