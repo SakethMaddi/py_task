@@ -101,17 +101,17 @@
 # palindrome("malayalam")
 
 # # And find smallest palindromic substring
-def palindrome(str):
-    count=0
-    smallest=str
-    for i in range(len(str)):
-        temp=""
-        for j in range(i,len(str)):
-            temp+=str[j]
-            if temp==temp[::-1] and len(temp)<=len(smallest) and len(temp)>=3:
-                smallest=temp              
-    print(smallest)
-palindrome("malayalam")
+# def palindrome(str):
+#     count=0
+#     smallest=str
+#     for i in range(len(str)):
+#         temp=""
+#         for j in range(i,len(str)):
+#             temp+=str[j]
+#             if temp==temp[::-1] and len(temp)<=len(smallest) and len(temp)>=3:
+#                 smallest=temp              
+#     print(smallest)
+# palindrome("malayalam")
 
 # positional prime number
 # def prime():
@@ -132,3 +132,19 @@ palindrome("malayalam")
 #     print(f"{prime} is the {count} prime number")
 # prime()
 
+# chars=["A",1,"B",2,"a","z"]
+# uc=[]
+# lc=[]
+# sum=0
+# for i in chars:
+#     a=str(i)
+#     b=ord(a)
+#     if b>=65 and b<=90:
+#         uc.append(a)
+#     elif b>=97 and b<123:
+#         lc.append(a)
+#     else:
+#         sum+=int(a)
+# u="".join(uc)
+# l="".join(lc)
+# print(f"{u} ,{l} ,{sum}")
