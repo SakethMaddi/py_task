@@ -98,3 +98,10 @@
 # str=list(str)
 # print(str)
 
+# Remove duplicate characters.
+str="abcdabefgh"
+str1=""
+for i in range(len(str)):
+    if str[i].count==1:
+        str1+=i
+print(str1)
